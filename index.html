@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Clipboard landing page</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <img src="./images/bg-header-desktop.png" alt="" style="position: absolute; top: 0%; left: 0%; width: 100%;">
+  <img src="./images/logo.svg" alt="" style="position: absolute; left: 46%; top: 7%;" height="100px">
+  <h1 style="text-align: center; margin-top: 200px;">
+    A history of everything you copy
+  </h1>
+  <p style="text-align: center; margin-bottom: 3px;">
+    Clipboard allows you to track and organize everything you 
+    copy. Instantly
+  </p>
+  <p style="text-align: center; margin-top: 2px;">
+    access your clipboard on all your devices.
+  </p>
+  <br>
+  <div id="pairbut">
+    <button style="display: inline-block;" id="down1">Download for iOS</button>
+    <button style="display: inline-block;" id="down2">Download for Mac</button>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1 style="text-align: center; font-size: 30px;">
+    Keep track of your snippets
+  </h1>
+<p style="text-align: center; margin-top: 2px; margin-bottom: 3px;">
+  Clipboard instantly stores any item you copy in the cloud, 
+  meaning you can access <p style="text-align: center; margin-top: 2px; margin-bottom: 3px;">your snippets immediately on all your 
+  devices. Our Mac and iOS apps will help you</p><p style="text-align: center; margin-top: 2px; margin-bottom: 3px;">organize everything.</p>
+</p>
+<img src="./images/image-computer.png" alt="" style="position: absolute; left: 0px; top: 92%; ">
+<div style="position: absolute; right: 22.5%; top: 92%;">
+   <h1 style="font-size: 25px;">Quick Search</h1>
+   <p style="margin-top: 2px; margin-bottom: 3px;">Easily search your snippets by content, </p>
+   <p style="margin-top: 2px; margin-bottom: 3px;">category, web address, application, and more.</p>
+</div>
+<div style="position: absolute; right: 22.5%; top: 110%;">
+   <h1 style="font-size: 25px;">iCloud Sync</h1>
+   <p style="margin-top: 2px; margin-bottom: 3px;">Instantly saves and syncs snippets across all</p>
+   <p style="margin-top: 2px; margin-bottom: 3px;">your devices.</p>
+</div>
+<div style="position: absolute; right: 23%; top: 130%;">
+  <h1 style="font-size: 25px;">Complete History</h1>
+  <p style="margin-top: 2px; margin-bottom: 3px;">Retrieve any snippets from the first moment</p>
+  <p style="margin-top: 2px; margin-bottom: 3px;">you started using the app.</p>
+</div>
+<div style="position: absolute; top: 180%; left: 30%;">
+  <h1 style="font-size: 30px; text-align: center;">Access Clipboard anywhere</h1>
+  <p style="text-align: center;">Whether you’re on the go, or at your computer, you can access all your Clipboard </p>
+  <p style="text-align: center;">snippets in a few simple clicks.</p>
+</div>
+<img src="./images/image-devices.png" alt="" style="position: absolute; top: 210%; left: 20%;">
+ <div style="position: absolute; top: 290%; left: 38%;">
+  <h1 style="text-align: center; font-size: 30px;">Supercharge your workflow</h1>
+  <p style="text-align: center;">We’ve got the tools to boost your productivity.</p>
+ </div>
+
+  <div style="padding-top: 10px; display: inline-block;" id="blacklists">
+    <img src="./images/icon-blacklist.svg" alt="" style="display: flex; justify-content: center;  margin-bottom: 10px;" id="iage">
+    <h1 style="text-align: center; margin-top: 50px;">Create blacklists</h1>
+    <p style="text-align: center;">Ensure sensitive information never makes its</p>
+    <p style="text-align: center;">way to your clipboard by excluding certain</p>
+    <p style="text-align: center;">sources.</p>
+  </div>
+  
+  <div style="padding-top: 10px; display: inline-block;" id="text">
+    <img src="/images/icon-text.svg" alt=""  style=" margin-bottom: 10px; display: flex; justify-content: center;" id="iage2">
+    <h1 style="text-align: center; margin-top: 50px;">Plain text snippets</h1>
+    <p style="text-align: center;">Remove unwanted formatting from copied text</p>
+    <p style="text-align: center;">for a consistent look.</p>
+  </div>
+
+  <div style="padding-top: 10px; display: inline-block;" id="preview">
+    <img src="./images/icon-preview.svg" alt="" style="margin-bottom: 10px; display: flex; justify-content: center;" id ="iage3">
+    <h1 style="text-align: center; margin-top: 50px;">Sneak preview</h1>
+    <p style="text-align: center;">Quick preview of all snippets on your Clipboard</p>
+    <p style="text-align: center;">for easy access.</p>
+ </div>
+ <div id="images" style="position: absolute; top: 370%; left: 15%; ">
+     <img src="./images/logo-google.png" alt="" style="display: inline-block; margin: 40px;">
+     <img src="./images/logo-ibm.png" alt="" style="display: inline-block; margin: 40px;">
+     <img src="./images/logo-microsoft.png" alt="" style="display: inline-block; margin: 40px;">
+     <img src="./images/logo-hp.png" alt="" style="display: inline-block; margin: 20px;">
+     <img src="./images/logo-vector-graphics.png" alt="" style="display: inline-block; margin: 40px;">
+ </div>
+ <div style="position: absolute; top: 405%; left: 30%;">
+  <h1 style="font-size: 30px; text-align: center;">Clipboard for iOS and Mac OS</h1>
+  <p style="text-align: center;">  Available for free on the App Store. Download for Mac or iOS, sync with iCloud and</p>
+  <p style="text-align: center;">you’re ready to start adding to your clipboard.</p>
+ </div>
+ <button style="display: inline-block;" id="dwn1">Download for iOS</button>
+ <button style="display: inline-block;" id="dwn2">Download for Mac</button>
+ <div style="position: absolute; top: 460%; left: 0%; width: 100%; height: 90px; background-color: hsl(207, 16%, 89%)">
+  <img src="./images/logo.svg" alt="" height="50px" id="log2">
+  <ul class ="lists">
+    <li>FAQs</li>
+    <li>Contact us</li>
+    <li>Privacy Policy</li>
+    <li>Press Kit</li>
+    <li>Install Guide</li>
+  </ul>
+  <ul id ="icons">
+      <li><a href="#"><img src="./images/icon-facebook.svg" alt=""></a></li>
+      <li><a href="#"><img src="./images/icon-twitter.svg" alt=""></a></li>
+      <li><a href="#"><img src="./images/icon-instagram.svg" alt=""></a></li>
+  </ul>
+ </div>  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Sanju321GH</a>.
+    </p>
+  </footer>
+</body>
+</html>

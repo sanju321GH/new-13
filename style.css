@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;600&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@500;700&family=Outfit:wght@100;300;400;600&display=swap');
+*{
+    font-family: Bai Jamjuree;
+}
+p{
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-top: 2px;
+    margin-bottom: 3px
+}
+#down1{
+   border: none;
+   height: 40px;
+   width: 150px;
+   border-radius: 25px;
+   position: absolute;
+    left: 37.5%;
+    top: 330px;
+   background-color: hsl(171, 66%, 44%);
+   color: white;
+   font-weight: 400;
+   transition: 0.2s;
+}
+#down2{
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    position: absolute;
+    left: 52.5%;
+    top: 330px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    font-weight: 400;
+    transition: 0.2s;
+}
+html{
+    height: 430%;
+}
+
+#blacklists{
+    position: absolute;
+     top: 329.75%;
+     left: 15%;
+
+}
+#text{
+    position: absolute;
+     top: 330%;
+     left: 40%;
+}
+#preview{
+    position: absolute;
+     top: 330%;
+     left: 65%;
+}
+#iage{
+    position: absolute;
+     left: 50%;
+}
+#iage3{
+    position: absolute;
+     left: 40%;
+}
+#iage2{
+    position: absolute;
+     left: 50%;
+}
+#dwn1{
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    position: absolute;
+     left: 37.5%;
+     top: 430%;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    font-weight: 400;
+    transition: 0.2s;
+}
+#dwn2{
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    position: absolute;
+    left: 52.5%;
+    top: 430%;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    font-weight: 400;
+    transition: 0.2s;
+}
+.lists, li{
+    width: 115px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 17px;
+}
+.lists{
+    width: 500px;
+    position: absolute;
+     left: 27%;
+     top: 0%;
+}
+#log2{
+   position: absolute;
+    left: 10%;
+    top: 20%;
+}
+#icons{
+    position: absolute;
+     right: 5%;
+     top: 25%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#down1:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+}
+#down2:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+}
+#dwn1:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+}
+#dwn2:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+}
